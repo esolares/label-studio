@@ -1,6 +1,6 @@
 {
-  "message": "fix: LEAP-849: LEAP-933: Security vulnerability fixes",
-  "commit": "f0086f25c287f6efc5e27acd87bb0587f0316a3f",
-  "date": "2024-04-09T17:49:03.000Z",
-  "branch": "fb-leap-849"
+  "message": "excluding 2 random errors 1 case each easy to remove",
+  "commit": "4b8c420eee2575de0d2e2b0c83a527a241013e61",
+  "date": "2024-04-09T23:00:58.000Z",
+  "branch": "fb-echo-27/regenerate-first-release-commit-to-review"
 }
