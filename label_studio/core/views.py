@@ -9,6 +9,7 @@ import posixpath
 import sys
 from pathlib import Path
 from wsgiref.util import FileWrapper
+from rest_framework.decorators import api_view
 
 import pandas as pd
 from core import utils
@@ -166,7 +167,7 @@ def samples_paragraphs(request):
 
     return HttpResponse(json.dumps(result), content_type='application/json')
 
-
+@api_view(('GET',))
 def localfiles_data(request):
     """Serving files for LocalFilesImportStorage"""
     user = request.user
